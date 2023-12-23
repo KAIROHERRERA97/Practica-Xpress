@@ -1,11 +1,11 @@
-import {Pool, QueryResult} from "pg";
+import { Pool, QueryResult } from "pg";
 
-export const pool =  new Pool({
-user:"postgres",
-host: "localhost",
-database: "Practica-Xpress",
-password: "admin",
-port: 5432,
+export const pool = new Pool({
+  user: "postgres",
+  host: "localhost",
+  database: "Practica-Xpress",
+  password: "postgres",
+  port: 5432,
 });
 
 // export const query = async (
